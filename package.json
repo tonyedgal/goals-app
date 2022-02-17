@@ -1,0 +1,38 @@
+{
+  "name": "goals-app",
+  "version": "1.0.0",
+  "description": "A goal setter app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyedgal/goals-app.git"
+  },
+  "keywords": [
+    "MERN",
+    "React",
+    "Node",
+    "Express",
+    "MongoDB",
+    "Traversy-media",
+    "material-ui"
+  ],
+  "author": "Tony Edgal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonyedgal/goals-app/issues"
+  },
+  "homepage": "https://github.com/tonyedgal/goals-app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
